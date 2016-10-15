@@ -1,0 +1,64 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>WIfI</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="container">
+          <header><h1>wifi Score Calculator</h1></header>
+
+          <form id="stageForm">
+            <div>
+              <header>W</header>
+              <div><label><input type="radio" name="w" value="0"> 0</label></div>
+              <div><label><input type="radio" name="w" value="1"> 1</label></div>
+              <div><label><input type="radio" name="w" value="2"> 2</label></div>
+              <div><label><input type="radio" name="w" value="3"> 3</label></div>
+            </div>
+
+            <div>
+              <header>I</header>
+              <div><label><input type="radio" name="i" value="0"> 0</label></div>
+              <div><label><input type="radio" name="i" value="1"> 1</label></div>
+              <div><label><input type="radio" name="i" value="2"> 2</label></div>
+              <div><label><input type="radio" name="i" value="3"> 3</label></div>
+            </div>
+
+            <div>
+              <header>FI</header>
+              <div><label><input type="radio" name="fi" value="0"> 0</label></div>
+              <div><label><input type="radio" name="fi" value="1"> 1</label></div>
+              <div><label><input type="radio" name="fi" value="2"> 2</label></div>
+              <div><label><input type="radio" name="fi" value="3"> 3</label></div>
+            </div>
+          </form>
+
+          <div>
+            <div id="results" class="alert alert-info"></div>
+            <em id="placeholder">Pick values above to get a wifi score</em>
+          </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

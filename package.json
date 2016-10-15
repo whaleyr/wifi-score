@@ -1,0 +1,38 @@
+{
+  "name": "wifi-score",
+  "version": "1.0.0",
+  "description": "wifi score calculator",
+  "main": "Gulpfile.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": "gulp",
+  "author": "Ryan Whaley",
+  "license": "ISC",
+  "repository": "private",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "browser-sync": "^2.17.3",
+    "del": "^2.2.2",
+    "glob": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-filter": "^4.0.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-inject": "^4.1.0",
+    "gulp-less": "^3.1.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-sourcemaps": "^2.1.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uncss": "^1.0.6"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "modernizr": "^3.3.1"
+  }
+}
