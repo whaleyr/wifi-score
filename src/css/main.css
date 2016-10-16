@@ -11,9 +11,10 @@
    ========================================================================== */
 
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  background: #bbb;
 }
 
 /*
@@ -95,26 +96,37 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  background: #bbb;
+}
+
+.container {
+  background: white;
+}
+
+#output {
+  margin: 2em 0 2em 0;
+}
+
 #results {
-    display: none;
+  display: none;
 }
 
 #stageForm {
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: row;
-    border: 1px dashed blue;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
 }
 
-#stageForm div {
-    flex: 0 1 auto;
-    padding: .5em;
-    background: #b3d4fc;
+#stageForm .control {
+  flex: 0 1 auto;
+  border-left: 1px solid #b3d4fc;
+  padding: 0 1em;
 }
 
 #stageForm div header {
-    font-weight: bold;
-    text-align: center;
+  font-weight: bold;
+  text-align: center;
 }
 
 
@@ -210,6 +222,9 @@ textarea {
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+  .container {
+    margin: 2em 2em 0 2em;
+  }
 }
 
 @media print,

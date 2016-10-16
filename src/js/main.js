@@ -35,7 +35,7 @@ function _formChangeHandler() {
   var placeholder = document.getElementById('placeholder');
   if (w && i && fi) {
     placeholder.style.display = 'none';
-    document.getElementById('results').innerHTML = 'w:' + w + " + i:" + i + " fi:" + fi + " = <mark>" + codes[w][i][fi]+"</mark>";
+    document.getElementById('results').innerHTML = "Class = " + codes[w][i][fi];
     document.getElementById('results').style.display = 'block';
   } else {
     placeholder.style.display = 'inline';
