@@ -100,12 +100,17 @@ body {
   background: #bbb;
 }
 
+header h1 {
+  margin: 0 0 .5em 0;
+}
+
 .container {
   background: white;
+  padding: 1em;
 }
 
 #output {
-  margin: 2em 0 2em 0;
+  margin: 2em 0 0 0;
 }
 
 #results {
@@ -116,19 +121,33 @@ body {
   display: -webkit-flex;
   display: flex;
   flex-direction: row;
+  text-align: right;
 }
 
 #stageForm .control {
   flex: 0 1 auto;
-  border-left: 1px solid #b3d4fc;
   padding: 0 1em;
+}
+
+#w {
+  background: #faf2cc;
+}
+#i {
+  background: #b3d4fc;
+}
+#fi {
+  background: #c1e2b3;
 }
 
 #stageForm div header {
   font-weight: bold;
-  text-align: center;
+  font-size: 1.5em;
+  border-bottom: 1px solid #333;
 }
 
+div.control div {
+  font-size: 2em;
+}
 
 
 
